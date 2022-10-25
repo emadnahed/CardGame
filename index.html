@@ -3,9 +3,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-        <script src="index.js"></script>
+    <div class="mainframe">
+        <div class="secondframe">
+            <h1>BlackJack Game</h1>  
+            <p id="message-el">Do you want to play a round?</p>
+            <!-- Card start -->
+            <div class="card">
+    
+                <div id="hearts">
+                  <div id="spade">
+                    <span id="ace-left">A</span>
+                    <span class="small-spade left">&spades;</span>
+                  <span class="center">&spades;</span>
+                  <span id="ace-right">A</span>
+                  <span class="small-spade right">&spades;</span>
+                </div>
+              </div>
+          </div>
+            <!-- Card end -->
+            <p id="instructions-el">Tip: Try your luck now!</p>
+            <p id="card-el">Cards: </p>
+            <p id = "sum-el">Sum of all card values: </p>
+                <div class="buttonsa">
+                    <button id="b2" class="play" onclick="startGame()">START GAME</button>
+                    <button id="b1" class="play" onclick="newCard()">NEW CARD</button>
+                </div>
+            <button id="seperate" onclick="rFresh()">START OVER</button>
+        </div>
+    </div>    
+    <script src="index.js"></script>
 </body>
 </html>

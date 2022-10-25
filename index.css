@@ -1,0 +1,175 @@
+body {
+    /* background-image:url(cardbackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;*/
+    /*   */
+    background: linear-gradient(110deg, #a1f448 60%, #1fee4c 60%);
+}
+
+
+.mainframe
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.secondframe {
+    margin-top: 50px;
+    height: 300px; */
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font: bold;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-top: 20px; */
+}
+
+
+.buttonsa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+button.play {
+    width: 160px;
+    height: 42px;
+    margin: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff6fd;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(210, 56, 56, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button.play:hover {
+    background-color: #07bdf9;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+
+button#seperate {
+    margin-top: 8px;
+    width: 160px;
+    height: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 28, 30);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    padding: 20px;
+    padding-top: 18px;
+}
+
+button#seperate:hover {
+    background-color: #b54848;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+
+
+/* Cards css start */
+
+  
+body {
+    margin: -70 auto;
+    background-color: #A1D490;
+    text-align:center;
+  }
+  
+  #hearts {
+    position: relative;
+    height:210px;
+    width: 130px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: -2px;;
+    border-radius: 8%;
+    -moz-border-radius: 8%;
+  
+  }
+  
+  #spade{
+    font-size: 38px;
+    margin: auto;
+  }
+  
+  .center{
+    position: relative;
+    top: 90px;
+    left: -15px;
+  }
+  
+  .small-spade {
+    position: absolute;
+    font-size: 22px;
+  }
+  
+  /* left heart */
+  .left {
+    left:24px;
+    top: 36px;
+  }
+  
+  /* right heart */
+  .right {
+    -webkit-transform:rotate(-180deg);
+    left: 92px;
+    top: 145px;
+  }
+  
+  /* left A */
+  #ace-left {
+    position: relative;;
+    font-size: 29px;
+    top: 2px;
+    left: -13px;
+  }
+  
+  /* right A */
+  #ace-right {
+    position: absolute;
+    font-size: 29px;
+    top: 168px;
+    left: 90px;
+    -webkit-transform:rotate(-180deg);
+  }
+  
+/* Cards css end */
