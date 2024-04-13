@@ -9,6 +9,7 @@ This is a simple card game where the user tries to get a sum of cards as close t
 
 1. [Getting Started](#getting-started)
    * [Instructions](#instructions)
+   * [Screenshot](#screenshot)
    * [Setup](#setup)
 2. [Game Functionality](#game-functionality)
    * [Start Game](#start-game)
@@ -29,6 +30,11 @@ This is a simple card game where the user tries to get a sum of cards as close t
 6. If the sum exceeds 21, the user loses the game.
 7. Click the "New Card" button to draw a new card.
 8. Click the "Reset Game" button to reset the game.
+
+### Screenshot
+
+![image](https://github.com/emadnahed/CardGame/assets/81587039/9bbf41e3-f6e8-4763-a81c-25d446d39ba4)
+
 
 ### Setup
 
